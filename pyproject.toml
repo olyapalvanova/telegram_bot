@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "telegram-bot"
+version = "0.1.0"
+description = ""
+authors = ["olgapalvanova <o.palvanova@teachbase.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+django-environ = "^0.11.2"
+djangorestframework = "^3.15.2"
+django = "4.2.16"
+psycopg2-binary = "2.9.5"
+telegram-django-bot = "^1.1.0"
+django-extensions = "^3.2.3"
+python-telegram-bot = "13.15"
+python-dateutil = "^2.9.0.post0"
+
+
+[tool.poetry.group.dev.dependencies]
+setuptools = "^75.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+

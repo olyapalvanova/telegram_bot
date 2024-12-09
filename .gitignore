@@ -1,0 +1,14 @@
+# Ignore any file/dir with a leading period in the name
+# except those explicitly allowed
+.*
+!.gitignore
+
+# Env data
+venv*/
+*.env
+
+# media and static
+/media
+/static
+/*/media/
+/*/staticfiles/
